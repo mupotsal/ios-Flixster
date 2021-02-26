@@ -20,6 +20,8 @@
 		384D6AED25E89BD6002E7A15 /* ticket_tabbar_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 384D6AEC25E89BD6002E7A15 /* ticket_tabbar_icon.png */; };
 		384D6AF225E89BDE002E7A15 /* ticket_tabbar_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 384D6AF125E89BDE002E7A15 /* ticket_tabbar_icon@2x.png */; };
 		384D6AF725E89BE6002E7A15 /* ticket_tabbar_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 384D6AF625E89BE6002E7A15 /* ticket_tabbar_icon@3x.png */; };
+		384D6AFC25E8C433002E7A15 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D6AFB25E8C433002E7A15 /* MovieGridViewController.swift */; };
+		384D6B0125E8D300002E7A15 /* MovieGridCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384D6B0025E8D300002E7A15 /* MovieGridCell.swift */; };
 		388CCD4525E75D13002D932C /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388CCD4425E75D13002D932C /* MovieDetailsViewController.swift */; };
 		388EB2D625DE20A700706686 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388EB2D525DE20A700706686 /* AppDelegate.swift */; };
 		388EB2D825DE20A700706686 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388EB2D725DE20A700706686 /* SceneDelegate.swift */; };
@@ -66,6 +68,8 @@
 		384D6AEC25E89BD6002E7A15 /* ticket_tabbar_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ticket_tabbar_icon.png; path = ../../../../../../../Downloads/iOS_flix_assets/ticket_tabbar_icon.png; sourceTree = "<group>"; };
 		384D6AF125E89BDE002E7A15 /* ticket_tabbar_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ticket_tabbar_icon@2x.png"; path = "../../../../../../../Downloads/iOS_flix_assets/ticket_tabbar_icon@2x.png"; sourceTree = "<group>"; };
 		384D6AF625E89BE6002E7A15 /* ticket_tabbar_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ticket_tabbar_icon@3x.png"; path = "../../../../../../../Downloads/iOS_flix_assets/ticket_tabbar_icon@3x.png"; sourceTree = "<group>"; };
+		384D6AFB25E8C433002E7A15 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		384D6B0025E8D300002E7A15 /* MovieGridCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridCell.swift; sourceTree = "<group>"; };
 		388CCD4425E75D13002D932C /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		388EB2D225DE20A700706686 /* flixster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flixster.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		388EB2D525DE20A700706686 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -165,6 +169,8 @@
 				3891035725DF6D6000FC103D /* MoviesViewController.swift */,
 				3891038F25DF756C00FC103D /* MovieCell.swift */,
 				388CCD4425E75D13002D932C /* MovieDetailsViewController.swift */,
+				384D6AFB25E8C433002E7A15 /* MovieGridViewController.swift */,
+				384D6B0025E8D300002E7A15 /* MovieGridCell.swift */,
 			);
 			path = flixster;
 			sourceTree = "<group>";
@@ -465,6 +471,8 @@
 				388EB2D825DE20A700706686 /* SceneDelegate.swift in Sources */,
 				3891039025DF756C00FC103D /* MovieCell.swift in Sources */,
 				3891035825DF6D6000FC103D /* MoviesViewController.swift in Sources */,
+				384D6AFC25E8C433002E7A15 /* MovieGridViewController.swift in Sources */,
+				384D6B0125E8D300002E7A15 /* MovieGridCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
